@@ -8,11 +8,19 @@
         "source": "E:\\workspace\\studiowork\\Android1604\\refreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
     },
     {
+        "merged": "C:\\Users\\admin\\AndroidStudioProjects\\FlowerLook\\refreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "C:\\Users\\admin\\AndroidStudioProjects\\FlowerLook\\refreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\FlowerLook\\refreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
         "source": "D:\\AndroidStudioProjects\\FlowerLook\\refreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
     },
     {
         "merged": "E:\\workspace\\studiowork\\Android1604\\refreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
         "source": "E:\\workspace\\studiowork\\Android1604\\refreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\AndroidStudioProjects\\FlowerLook\\refreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "C:\\Users\\admin\\AndroidStudioProjects\\FlowerLook\\refreshlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
     }
 ]
