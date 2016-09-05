@@ -1,4 +1,5 @@
 package com.example.flowerlook.module_guide;
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.flowerlook.HomeActivity;
 import com.example.flowerlook.R;
 import com.example.flowerlook.module_guide.adapter.GuideAdapter;
 
@@ -41,26 +43,16 @@ public class GuideActivity extends AppCompatActivity {
 
             @Override
             public void onPageSelected(int position) {
-                switch (position) {
-                    case 0:
-                        View view1 = views.get(position);
-                        Button btnOne = (Button) view1.findViewById(R.id.item_activity_guide_btn_one);
-                        //btnOne.setOnClickListener(this);
-                        break;
-                    case 1:
-                        View view2 = views.get(position);
-                        Button btnTwo = (Button) view2.findViewById(R.id.item_activity_guide_btn_one);
-                        break;
-                    case 2:
-                        View view3 = views.get(position);
-                        Button btnThree = (Button) view3.findViewById(R.id.item_activity_guide_btn_one);
-                        break;
-                    case 3:
-                        View view4 = views.get(position);
-                        Button btnFour = (Button) view4.findViewById(R.id.item_activity_guide_btn_one);
-                        break;
+                        View view = views.get(position);
+                        view.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Intent intent=new Intent(GuideActivity.this, HomeActivity.class);
+                                startActivity(intent);
+                            }
+                        });
+
                 }
-            }
 
             @Override
             public void onPageScrollStateChanged(int state) {
@@ -86,7 +78,6 @@ public class GuideActivity extends AppCompatActivity {
         views.add(view4);
 
     }
-
 
 
 }
