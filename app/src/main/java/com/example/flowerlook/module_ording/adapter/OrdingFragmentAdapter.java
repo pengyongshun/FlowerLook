@@ -70,8 +70,8 @@ public class OrdingFragmentAdapter extends BaseAdapter {
         hodler.tvDigestOrding.setText(digest);
         hodler.tvPosttimeOrding.setText(postTime);
         hodler.tvTitleOrding.setText(title);
-        ImageLoader.init(context).load(coverUrl,hodler.civCoverOrding);
-        ImageLoader.init(context).load(officialAccountPicture,hodler.ivOffOrding);
+        ImageLoader.init(context).load(officialAccountPicture,hodler.civCoverOrding);
+        ImageLoader.init(context).load(coverUrl,hodler.ivOffOrding);
         return convertView;
     }
     class OrdingViewHodler{

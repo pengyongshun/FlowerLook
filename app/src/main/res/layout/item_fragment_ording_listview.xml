@@ -52,6 +52,7 @@
         android:id="@+id/item_ording_fragment_listview_iv_officialaccountpicture"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:scaleType="fitXY"
         android:layout_below="@id/item_ording_fragment_listview_tv_digest"
         android:src="@mipmap/ic_launcher"/>
 </RelativeLayout>

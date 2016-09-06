@@ -24,10 +24,10 @@ public class HttpOrdingUitls {
             builder.baseUrl(baseUrl);
             //添加Gson对象
             builder.addConverterFactory(GsonConverterFactory.create());
-            Retrofit build = builder.build();
-            HttpOrdingService httpService = build.create(HttpOrdingService.class);
-            return httpService;
+            Retrofit retrofit = builder.build();
+             httpService = retrofit.create(HttpOrdingService.class);
+
         }
-        return null;
+        return httpService;
     }
 }
