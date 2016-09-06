@@ -15,6 +15,7 @@ import com.example.flowerlook.module_ording.adapter.OrdingFragmentAdapter;
 import com.example.flowerlook.module_ording.bean.OrdingListBean;
 import com.example.flowerlook.module_ording.presenter.concetion.PresenterOrdingContction;
 import com.example.flowerlook.module_ording.view.IViewOrding;
+import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +31,7 @@ import butterknife.ButterKnife;
 public class OrdingFragment extends Fragment implements IViewOrding {
     private Context context;
     @BindView(R.id.ording_fragment_content_lv)
-    public ListView mListView;
+    public PullToRefreshListView mListView;
     private List<OrdingListBean.RowBean.ArticleListBean> articleListBeanList=new ArrayList<>();
     private OrdingFragmentAdapter mOrdingFragmentAdapter;
     private PresenterOrdingContction mPresenterOrdingContction;
