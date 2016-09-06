@@ -1,9 +1,19 @@
 package com.example.flowerlook.module_recommendation.presenter;
 
+import com.example.flowerlook.module_recommendation.bean.RecommendBean;
+
 /**
- * Created by 彭永顺 on 2016/9/5.
+ * @Author:king1033
+ * @Desc:
+ * 需要处理的逻辑 连接view层和Model
+ * 接口回调：用于接收网络请求之后的数据
+ * @Time:2016/9/6
  */
 public interface IpresenterRecommendation {
-    //TODO 需要处理的逻辑 连接view层和Model
+void getRecommendList(int pageidx);
+
+    interface CallBack{
+        void success(RecommendBean recommendBean);
+    }
 
 }

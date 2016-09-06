@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
 
 import com.example.flowerlook.HomeActivity;
 import com.example.flowerlook.R;
@@ -68,7 +67,7 @@ public class GuideActivity extends AppCompatActivity {
     }
 
     private void loadGuideData() {
-        View view1 = LayoutInflater.from(this).inflate(R.layout.item_vactivity_guide_vp_one, null);
+        View view1 = LayoutInflater.from(this).inflate(R.layout.item_activity_guide_vp_one, null);
         View view2 = LayoutInflater.from(this).inflate(R.layout.item_activity_guide_vp_two, null);
         View view3 = LayoutInflater.from(this).inflate(R.layout.item_activity_giude_vp_three, null);
         View view4 = LayoutInflater.from(this).inflate(R.layout.item_activity_guide_vp_four, null);

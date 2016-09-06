@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/item_recommend_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash1" />
+
+    <TextView
+        android:id="@+id/item_recommend_text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:text="终于有人讲透了芯片是什么？"
+        android:textSize="28sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#efefef" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp">
+
+        <TextView
+            android:id="@+id/item_recommend_text_view_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:text="2016-09-06"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/item_recommend_text_view_from"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="from:中科院物理所"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+</LinearLayout>

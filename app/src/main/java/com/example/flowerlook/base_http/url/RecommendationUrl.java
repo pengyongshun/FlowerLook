@@ -10,5 +10,5 @@ public class RecommendationUrl {
      * 2 详情  采用WebView  在列表中的属性articleUrl
      * **/
     //列表
-    public static final String RECOMMENDATION_LIST="http://haokan.weijuju.com/mobile/article/getRecommendArticleList?timestamp=1472982708423&platform=haokan&count=10&pageidx=0&dev=android&userToken=fb84e4778ecc1cc45d8986d7203069f3&random=443762&version=v1.0";
+    public static final String RECOMMENDATION_LIST="http://haokan.weijuju.com/mobile/article/getRecommendArticleList?platform=haokan&dev=android&version=v1.0&timestamp=1473146656474&count=10&userToken=f0e3de3296a7d6c2459bb8235fc2a92d&random=889062&pageidx=0";
 }
